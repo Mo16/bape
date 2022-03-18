@@ -18,7 +18,7 @@ TIMELINE: 683f11
 body { font-family: 'Comfortaa', cursive; font-weight: normal; position: relative; font-style: normal; font-size: 14px; line-height: 26px; color: #000; overflow-x: hidden; background: white; }
 a:hover, a:focus, a.active { text-decoration: none; outline: none; }
 a, a:hover, a:focus { color: #ffcd02; -webkit-transition: all 250ms ease-in-out 0s; -moz-transition: all 250ms ease-in-out 0s; -ms-transition: all 250ms ease-in-out 0s; -o-transition: all 250ms ease-in-out 0s; transition: all 250ms ease-in-out 0s; text-decoration: none; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat', sans-serif; font-weight: normal; color: black; margin-top: 0px; margin-bottom: 0px; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Lobster', sans-serif; font-weight: normal; color: black; margin-top: 0px; margin-bottom: 0px; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 h1 { font-size: 50px; line-height: normal; }
 h2 { font-size: 36px; line-height: normal; }
@@ -603,7 +603,10 @@ Token Sale
                             Token 
 -----------------------------------------------------------------------*/
 
-
+@font-face {
+  font-family: "Lobster";
+  src: url("/BAPECOIN/Lobster\ 1.4.otf");
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
